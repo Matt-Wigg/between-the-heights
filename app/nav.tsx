@@ -4,7 +4,7 @@ const data = {
   nav: [
     {
       id: 1,
-      label: 'Logo',
+      label: 'Between The Heights Productions',
       url: '/',
     },
     {
