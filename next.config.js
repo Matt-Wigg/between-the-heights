@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: ['random.dog'],
+},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

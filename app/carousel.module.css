@@ -1,0 +1,31 @@
+.active {
+  background-color: white;
+  height: 5rem;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.inactive {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.controls {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2rem;
+}
